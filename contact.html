@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conrad's Blog</title>
     <link href="/css/bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link href="/css/blog.css" rel="stylesheet">
+	  <link href="/css/blog.css" rel="stylesheet">
+    <style>
+      .hold{
+        background-image: url(/images/planes.jpg);
+      }
+    </style>
 </head>
 <body>
     <div w3-include-html="/includes/navbar.html"></div>
+    <div class="hold">
+    <div class="mid">
     <form style="width: 26rem;">
         <!-- Name input -->
         <div data-mdb-input-init class="form-outline mb-4">
@@ -45,6 +52,8 @@
         <!-- Submit button -->
         <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
       </form>
+    </div>
+    </div>
       <script src="/css/bootstrap/js/bootstrap.bundle.js"></script>
       <script src="/js/include.js"></script>
 </body>
