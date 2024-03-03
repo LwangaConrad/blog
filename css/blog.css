@@ -114,6 +114,17 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
-/* .mid {
-  
-} */
+div a {
+  color: black;
+  text-decoration: none;
+}
+.imag{
+  position: relative;
+}
+.bot {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: #ffff;
+  margin: 50px;
+}
